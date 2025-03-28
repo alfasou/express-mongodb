@@ -5,7 +5,7 @@ import livro from './models/Livro.js';
 const conexao = await conectaNaDatabase();
 
 conexao.on('error', (erro) => {
-	console.error('erro de conexão', erro);
+	console.error('Erro de conexão', erro);
 });
 
 conexao.once('open', () => {

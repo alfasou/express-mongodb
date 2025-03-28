@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import app from './src/app.js';
 
 const PORT = 3000;
@@ -9,5 +10,5 @@ const rotas = {
 };
 
 app.listen(PORT, () => {
-	console.log('servidor escutando!');
+	console.log('Servidor escutando!');
 });
